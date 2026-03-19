@@ -41,3 +41,7 @@ public class LinearSearching {
         }
     }
 }
+
+// time complexcity : Best case => o(1)
+//                     Worst case => o(n)
+
