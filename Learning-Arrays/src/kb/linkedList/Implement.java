@@ -38,6 +38,19 @@ public class Implement {
 
         }
 
+        int size(){
+            Node temp = head;
+            int count = 0;
+
+            while (temp != null){
+                count++;
+                temp = temp.next;
+
+            }
+            return count;
+
+        }
+
 
 
     }
@@ -54,5 +67,10 @@ public class Implement {
         list.insertAtEnd(23);
 
         list.display();
+        System.out.println(" \nLinked List size: "+ list.size());
+
+        list.insertAtEnd(100);
+        list.display();
+        System.out.println(" \nLinked List size: "+ list.size());
     };
 };
